@@ -13,7 +13,7 @@ body {
   line-height: 1.3rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin: 5px;
+  margin: 0;
   font-size: 1em;
 }
 
@@ -28,20 +28,24 @@ article h1 {
   line-height: 1em;
   font-style: normal;
   font-weight: normal;
-  margin-bottom: 5px;
+  margin-bottom: 0;
+}
+
+article p {
+  margin: 1.25em 0;
 }
 
 article header p {
   font-style: italic;
   font-weight: lighter;
-  margin-top: 5px;
+  margin: .25em 0 1em;
 }
 
 blockquote {
   color: #999;
   font-size: 1.125rem;
-  font-weight: lighter;
   font-style: normal;
+  margin: 2em 1.5em;
 }
 
 .quote {
